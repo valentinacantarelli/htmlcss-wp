@@ -93,13 +93,18 @@ a:link{
     font-size: 13px;
     color: grey;
 }
+/* row */
 .row {
-    padding: 15px 0;
+    padding: 10px 0;
 }
+.titolo-colonne {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .col-left, .col-center, .col-right {
     float: left;
-    background-color: #abcfe7;
-    
+       
 }
 .col-left, .col-right {
     width:20%;
@@ -109,6 +114,7 @@ a:link{
     width: calc(60% - 16px);
     margin: 0 8px;
 }
+.img-
 
 
 /*footer*/
