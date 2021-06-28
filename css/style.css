@@ -25,7 +25,7 @@ body{
     right: 0;
 }
 .container {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -115,17 +115,26 @@ a:link{
           
 }
 .col-center {
-    width: calc(60% - 16px);
-    margin: 0 8px;
+    width: calc(60% - 24px);
+    margin: 0 12px;
 }
-.img-colonna-left {
-    background-image: url('../img/img-1.jpg');
+.immagini {
     height: 150px;
     border-radius: 10px;
     background-size: 90%;
     background-position: center ;
+    background-repeat: no-repeat;
     position: relative;
 
+}
+.img-col-left {
+    background-image: url('../img/img-1.jpg');
+}
+.img-col-center {
+    background-image: url('../img/banner-2.jpg');  
+}
+.img-col-right {
+    background-image: url('../img/img-3.jpg');
 }
 
 
