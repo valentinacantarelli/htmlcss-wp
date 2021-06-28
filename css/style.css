@@ -15,7 +15,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -36,13 +36,35 @@ a:link{
     color: grey;
     margin-right: 12px;
 }
+
 /*MAIN*/
 /*prima sezione main*/
 .hero {
-    background-color: #e1d67a;
-    height: 350px;
+    background-image: url('../img/banner.jpg');
+    height: 400px;
+    border-radius: 10px;
+    background-size: 90%;
+    background-position: center ;
     margin-bottom: 15px;
-    
+    position: relative;
+      
+}
+.hero-text{
+    position: absolute;
+    padding: 250px 25px 100px 45px;
+    font-size: 12px;
+    color: white;
+    width: 60%;
+      
+}
+.titolo-hero {
+    font-size: 20px ;
+    line-height: 30px;
+    font-weight: 500;
+
+}
+.par-hero {
+    font-size: 13px;
 }
 /*seconda sezione main*/
 .leadership {
