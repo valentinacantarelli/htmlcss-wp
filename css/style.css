@@ -14,6 +14,16 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.overlay {
+    position:absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .container {
     width: 75%;
     margin: auto;
@@ -37,6 +47,7 @@ a:link{
     margin-right: 12px;
 }
 
+
 /*MAIN*/
 /*prima sezione main*/
 .hero {
@@ -49,15 +60,7 @@ a:link{
     position: relative;  
 }
 
-.overlay {
-    position:absolute;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.15);
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+
 
 .hero-text{
     position: absolute;
@@ -100,6 +103,7 @@ a:link{
 .titolo-colonne {
     font-size: 15px;
     font-weight: 500;
+    padding: 15px 0;
 }
 
 .col-left, .col-center, .col-right {
@@ -114,7 +118,15 @@ a:link{
     width: calc(60% - 16px);
     margin: 0 8px;
 }
-.img-
+.img-colonna-left {
+    background-image: url('../img/img-1.jpg');
+    height: 150px;
+    border-radius: 10px;
+    background-size: 90%;
+    background-position: center ;
+    position: relative;
+
+}
 
 
 /*footer*/
