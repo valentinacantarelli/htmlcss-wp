@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sito web layout</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-    <body>
-        <div class="container">
-            <!-- header -->
-            <header></header>
-            <!-- corpo centrale -->
-            <main>
-                <!-- sezione fissa -->
-                <div class="sezionefissa"></div>
-                <!-- sezione float -->
-                <div class="sezione-float">
-                    <div class="contenitore-centrale">
-                        <div class="barra-superiore"></div>
-                        <div class="clearfix colonne">
-                            <div class="col-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa minus repellat exercitationem dignissimos laudantium corrupti qui et neque tenetur dolorem odit sit a, corporis fugiat dicta rerum suscipit accusantium.</div>
-                            <div class="col-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sit omnis inventore aspernatur quasi saepe labore nemo, laudantium expedita necessitatibus, numquam repudiandae, quo quia repellendus! Voluptatum, sunt! Ipsa, repudiandae similique?</div>
-                            <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet facere in, eligendi asperiores qui corrupti dolores doloribus consequatur dignissimos repellendus ullam ipsa minima corporis molestiae quis veritatis sit vel tenetur?</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sito web layout</title>
+        <!-- google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <div class="container">
+                <!-- header -->
+                <header>
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <nav class="menu-link">
+                        <a href="#">FEATURES</a>
+                        <a href="#">EDITORIALS</a>    
+                        <a href="#">ENVIRONMENT</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">SHOP</a>
+                        <a href="#">CONTACT</a>
+                    </nav>
+                </header>
+                <!-- corpo centrale -->
+                <main>
+                    <!-- sezione hero -->
+                    <section class="hero"></section>
+                    <!-- sezione float -->
+                    <section class="leadership">
+                        <div class="leadership-title"></div>   
+                     
+                        <div class="row clearfix">
+                                <div class="col-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa minus repellat exercitationem dignissimos laudantium corrupti qui et neque tenetur dolorem odit sit a, corporis fugiat dicta rerum suscipit accusantium.</div>
+                                <div class="col-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sit omnis inventore aspernatur quasi saepe labore nemo, laudantium expedita necessitatibus, numquam repudiandae, quo quia repellendus! Voluptatum, sunt! Ipsa, repudiandae similique?</div>
+                                <div class="col-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet facere in, eligendi asperiores qui corrupti dolores doloribus consequatur dignissimos repellendus ullam ipsa minima corporis molestiae quis veritatis sit vel tenetur?</div>
                         </div>
-                    </div>
-                </div>    
-            </main>
-            <!-- footer -->
-            <footer></footer>
-        </div>
-    </body>
+                    </section>     
+                </main>
+                <!-- footer -->
+                <footer></footer>
+            </div>
+        </body>
     </html>
